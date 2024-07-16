@@ -1,0 +1,64 @@
+ -----------
+  Changelog
+ -----------
+
+
+ Version 9.0
+ -----------
+
+ 
+
+[ADD] LUA scripting support
+[ADD] 'lua' console command to run LUA commands
+[ADD] 'lua_openscript' command to run a script
+[ADD] 'lua_listbinds' to list available bound functions
+[ADD] 'gm_defaultgamerules' command
+[FIX] Possible phys properties bug
+[FIX] Bots not interacting with physics
+[FIX] Random spawn crash
+[ADD] Motion blur effect
+[ADD] ALL maps now listed at the bottom of the SP/MP game panels
+[FIX] MP Game Panel now remembers maxplayers
+[ADD] Wind alter sliders in the Admin menu (buggy)
+[FIX] Blood now shows properly online
+[ADD] Enabled blood for our German speaking friends
+[ADD] New scoreboard
+[ADD] New admin options
+[FIX] Non chat text in chat area text being weird
+[FIX] Weapon selection popup when scrolling in spawn menu
+[FIX] Modcache optimizations
+[ADD] Zombie player model (Thanks to Podunkian)
+[ADD] Stalker player model (Thanks to Podunkian)
+[ADD] Classic Gordon player model (Thanks to Podunkian)
+[ADD] Charple player model (Thanks to Podunkian)
+[ADD] Corpse player model (Thanks to Podunkian)
+[FIX] Removed black screen on fall damage
+[ADD] Working spectator mode
+[FIX] Avatars now work for listen server hosts
+[ADD] gmod_gamesetup entity
+[ADD] gmod_runfunction entity
+[ADD] gmod_player_start entity
+[ADD] weapon_swep entity
+[FIX] Can now spawn using DoD spawnpoints
+[FIX] Bloom hitching when switched on for the first time
+[FIX] Colour mod hitching when switched on for the first time
+[FIX] Bots not registering as bots when they first joined a server
+[ADD] Scrollbar on spawnmenu dropdown box. (use gm_spawncombolines to alter)
+[ADD] Bloom presets menu
+[FIX] Colour mod shader now works
+[FIX] Reduced telefragging
+[ADD] cs_assault to CS:S minimod
+[ADD] 910ths gamemode by Garry Newman (aka garry)
+[ADD] Melon Racer gamemode by Garry Newman (aka garry)
+[ADD] Laser Dance gamemode by Garry Newman (aka garry)
+[ADD] Tactical Police Cops gamemode by Garry (really just Lua SWEP examples)
+[ADD] BirdPoo gamemode by Andy Vincent
+[ADD] Football gamemode by Tristan Pemble (aka n42)
+[ADD] Zombie Infestation gamemode by Matthew Mullins (aka g33k)
+[ADD] gm_build_tothetop gamemode by Matthew Mullins (aka g33k)
+[ADD] gm_build_bridge gamemode by Matthew Mullins (aka g33k)
+[ADD] Longsight gamemode by "MrSteak63"
+[FIX] Importing custom spraypaints now works
+[ADD] SetModel console command ("SetModel alyx", "SetModel breen" etc)
+[FIX] Memory leak in mod manager
+[ADD] gm_build_fortwars gamemode by Matthew Mullins (aka g33k)
